@@ -35,4 +35,10 @@ public class FilePathUtilTest {
 		System.out.println("the jar file contains Files.class" + FilePathUtil.getJarPath(Files.class));
 		assertThat(FilePathUtil.getJarPath(Files.class)).endsWith("guava-20.0.jar");
 	}
+
+	@Test
+    public void getResourcesPath() {
+        String path = FilePathUtil.getResourcesPath("ipdata/qqwry.dat");
+        System.out.println(path);
+    }
 }

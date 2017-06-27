@@ -85,4 +85,12 @@ public class FilePathUtil {
 	public static String getJarPath(Class<?> clazz) {
 		return clazz.getProtectionDomain().getCodeSource().getLocation().getFile();
 	}
+
+    /**
+     * 获得 name 文件在 Resouce 下的绝对路径
+     */
+    public static String getResourcesPath(String name) {
+        String path = Platforms.WORKING_DIR + "/src/main/resources/" + name;
+        return normalizePath(path);
+    }
 }
