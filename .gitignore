@@ -1,22 +1,24 @@
-# Compiled class file
-*.class
+##### IDE begin #####
+# Eclipse Project Files
+.classpath
+.project
+.settings/
 
-# Log file
-*.log
+# Intellij Project Files
+*.iml
+.idea/
+##### IDE end #####
 
-# BlueJ files
-*.ctxt
+##### Build begin #####
+# Temp Folders
+target/
+logs/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Temp Files
 *.jar
 *.war
-*.ear
 *.zip
+*.tar
 *.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+*.class
+##### Build end #####

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.zp.tent</groupId>
+  <artifactId>tent-project</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <name>tent-project</name>
+  <packaging>pom</packaging>
+  <description>Tent is a development framework based on JavaEE application</description>
+  <url>https://github.com/atlantis1024/tent</url>
+
+  <modules>
+    <module>common</module>
+    <module>modules</module>
+    <module>examples</module>
+  </modules>
+
+  <developers>
+    <developer>
+      <id>victor</id>
+      <name>Victor Zhang</name>
+      <email>atlantis1024 at 163.com</email>
+      <roles>
+        <role>Project leader</role>
+      </roles>
+      <timezone>+8</timezone>
+    </developer>
+  </developers>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+
+  <issueManagement>
+    <system>Github</system>
+    <url>https://github.com/atlantis1024/tent/issues</url>
+  </issueManagement>
+
+  <scm>
+    <url>https://github.com/atlantis1024/tent</url>
+    <connection>scm:git:git://github.com/atlantis1024/tent.git</connection>
+    <developerConnection>scm:git:ssh://github.com/atlantis1024/tent.git</developerConnection>
+  </scm>
+</project>
