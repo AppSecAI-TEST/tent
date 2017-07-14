@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.zp.tent</groupId>
-  <artifactId>tent-project</artifactId>
+  <groupId>org.tent</groupId>
+  <artifactId>tent</artifactId>
   <version>1.0.0-SNAPSHOT</version>
-  <name>tent-project</name>
   <packaging>pom</packaging>
-  <description>Tent is a development framework based on JavaEE application</description>
+
+  <name>tent</name>
+  <description>Tent 是一个 Java Web 领域的脚手架项目。目的在于基于它快速搭建一个完整的项目</description>
   <url>https://github.com/atlantis1024/tent</url>
 
   <modules>
@@ -20,9 +22,6 @@
       <id>victor</id>
       <name>Victor Zhang</name>
       <email>atlantis1024 at 163.com</email>
-      <roles>
-        <role>Project leader</role>
-      </roles>
       <timezone>+8</timezone>
     </developer>
   </developers>
